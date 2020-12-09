@@ -34,7 +34,7 @@ public:
         int i = l;
         for (int j=l; j<r-1; ++j) {
             if (input[j] < pivot) {
-                swap(input[i++], input[j]);
+                swap(input[i++], input[j]);  // 判断成功一次，i往后移动一位，表示pivot的待插入位置
             }
         }
         swap(input[i], input[r-1]);

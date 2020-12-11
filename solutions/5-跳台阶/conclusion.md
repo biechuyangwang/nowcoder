@@ -3,15 +3,15 @@
 
 ## 1 动态方程式
 
-f(x)=\begin{cases}
-1 & \text{ if } x=0,1 \\
-f(x-1)+f(x-2) & \text{ if other } \\
+f(x)=\begin{cases}  
+1 & \text{ if } x=0,1 \\  
+f(x-1)+f(x-2) & \text{ if other } \\  
 \end{cases}
 
 f(x)=
-\begin{cases}
-1 & \text{ if } x=0,1 \\
-f(x-1)+f(x-2) & \text{ if } x=\text{other} 
+\begin{cases}  
+1 & \text{ if } x=0,1 \\  
+f(x-1)+f(x-2) & \text{ if } x=\text{other}
 \end{cases}
 
 ```formula

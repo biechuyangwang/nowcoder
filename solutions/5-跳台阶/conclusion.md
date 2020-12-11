@@ -2,12 +2,12 @@
 [动态规划问题]()
 
 ## 1 动态方程式
-$$
-f(x)=\begin{cases}
-1 & x=1,2 \\
-f(x-1)-f(x-2) & other \\
-\end{cases}
-$$
+
+![](https://latex.codecogs.com/png.latex?\dpi{400}f(x)=\begin{cases}
+1 & \text{ if } x=0,1 \\
+f(x-1)+f(x-2) & \text{ if } x=\text{other} 
+\end{cases})
+
 
 ```formula
 f(x) = 1    (x=0,1)

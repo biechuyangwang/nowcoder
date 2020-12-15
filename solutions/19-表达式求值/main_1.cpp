@@ -37,14 +37,26 @@ public:
 
 
 int main(){
+//	vector<int>input = {-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6};
+//	vector<int>input = {-3,0,1,1,2,3}; 
+//	vector<int>input = {0,0,0}; 
 	vector<vector<int>>input = {{1,2,3},{4,5,6}};
+//	string input = "abc1234321ab";
+//	string input = "babcaaccabab";
 	int n = 2,m=3,s=6; 
+//	vector<int>res;
 	
 	Solution ss;
     auto res = ss.findElement(input,n,m,s);
-
+//    set<vector<int>>ss(res.begin(),res.end());
+//    res.assign(ss.begin(),ss.end());
     for(auto val : res)
 		cout << val << " ";
+//	cout << res;
+//	for(auto v : res){
+//		for(auto val : v) cout << val << " ";
+//		cout << endl;
+//	}
 	cout << endl;
 	return 0;
 }

@@ -56,12 +56,9 @@ int main(){
 	vector<int>input = {1,3,5,2,2};
 	int n = 5;
 	int k = 3; 
-//	vector<int>res;
 	
 	Solution s;
     auto res = s.findKth(input,n,k);
-//    for(auto val : res)
-//		cout << val << " ";
 	cout << res;
 	cout << endl;
 	return 0;

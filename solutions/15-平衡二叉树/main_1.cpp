@@ -59,12 +59,10 @@ int main(){
 	node1->right = node4;
 	node3->right = node5;
 	TreeNode *root = node0;
-//	vector<int>res;
 	
 	Solution s;
     auto res = s.IsBalanced_Solution(root);
-//    for(auto val : res)
-//		cout << val << " ";
+
 	cout << res;
 	cout << endl;
 	return 0;

@@ -47,20 +47,11 @@ public:
 
 int main(){
 	vector<int>input = {-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6};
-//	vector<int>input = {-3,0,1,1,2,3}; 
-//	vector<int>input = {0,0,0}; 
-//	string input = "abc1234321ab";
-//	string input = "babcaaccabab";
 	int n = 12; 
-//	vector<int>res;
 	
 	Solution s;
     auto res = s.threeSum(input);
-//    set<vector<int>>ss(res.begin(),res.end());
-//    res.assign(ss.begin(),ss.end());
-//    for(auto val : res)
-//		cout << val << " ";
-//	cout << res;
+	
 	for(auto v : res){
 		for(auto val : v) cout << val << " ";
 		cout << endl;

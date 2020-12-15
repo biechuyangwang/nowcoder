@@ -87,8 +87,7 @@ int main(){
 	
 	Solution s;
     auto res = s.getLongestPalindrome(input,n);
-//    for(auto val : res)
-//		cout << val << " ";
+	
 	cout << res;
 	cout << endl;
 	return 0;
